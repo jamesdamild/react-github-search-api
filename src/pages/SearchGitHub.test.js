@@ -48,21 +48,3 @@ test('testing Submit button with loading indicator', () => {
 		name: /Loading.../i
 	})
 })
-
-// test('renders h1 tag', () => {
-// 	render(<SearchGitHub />)
-// 	const textTag = screen.getByText(/Seach for GitHub?/i)
-// 	expect(textTag).toBeInTheDocument()
-// })
-
-// test('renders input Label', () => {
-// 	render(<SearchGitHub />)
-// 	const inputLabel = screen.getByText(/Search Github Api/i)
-// 	expect(inputLabel).toBeInTheDocument()
-// })
-
-// test('renders input text', () => {
-// 	render(<SearchGitHub />)
-// 	const inputText = screen.getByText(/Fetch GitHub/i)
-// 	expect(inputText).toBeInTheDocument()
-// })
